@@ -26,7 +26,7 @@
 
         <div class="border-1 border-gray-400 border-t-0 py-[20px] px-[15px]">
 
-            <form action="#" method="post">
+            <form action="acoes.php" method="post">
 
                 <div class="flex flex-col mb-[20px]">
 

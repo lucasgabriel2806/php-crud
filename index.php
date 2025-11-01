@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require_once 'conexao.php';
 ?>
 
@@ -18,6 +19,8 @@
     <?php include 'navbar.php'; ?>
 
     <main class="px-[50px]">
+        
+        <?php require_once("mensagem.php"); ?>
 
         <div class="flex justify-between items-center py-[7px] px-[10px] bg-gray-100 border-1 border-gray-400 rounded-t-[7px]">
 
