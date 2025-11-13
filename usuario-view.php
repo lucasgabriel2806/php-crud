@@ -45,7 +45,7 @@
 
                     // Verifica se retornou algum resultado
                     if ($stmt->rowCount() > 0) {
-                    $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
+                        $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
 
                 ?>
 

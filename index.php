@@ -108,7 +108,7 @@
 
                             <!-- Visualizar e editar vão redirecionar para uma página , por isso são links -->
                             <a class="bg-[#6B757B] text-[#fff] py-[5px] px-[10px] rounded-[5px]" href="usuario-view.php?id_usuario=<?=$usuario["id_usuario"]?>">Visualizar</a>
-                            <a class="bg-[#2F7A5E] text-[#fff] py-[5px] px-[10px] rounded-[5px]" href="#">Editar</a>
+                            <a class="bg-[#2F7A5E] text-[#fff] py-[5px] px-[10px] rounded-[5px]" href="usuario-edit.php?id_usuario=<?=$usuario["id_usuario"]?>">Editar</a>
                             <!-- Excluir vai criar um confirm pra excluir um usuário, por isso é um form -->
                             <form class="inline bg-[#EE493E] text-[#fff] py-[5px] px-[10px] rounded-[5px] cursor-pointer" action="#" mathod="POST">
                                 <button type="submit" name="delete_usuario" value="1">
