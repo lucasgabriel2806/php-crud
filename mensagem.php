@@ -3,6 +3,8 @@
 ?>
 
 <div class="bg-green-300 border-1 border-green-500 py-[7px] px-[10px] rounded-[7px] mb-[10px]">
+    <!-- A mensagem será exibida quando criada,
+         a mensagem será criada quando algo acontecer no código -->
     <?= $_SESSION["mensagem"]; ?>
 </div>
 

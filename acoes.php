@@ -1,10 +1,12 @@
 <?php
+// Usando sessão para guardar as variaveis de mensagens em uma sessão
 session_start();
 require_once 'conexao.php';
 
+// Se clicou no botão de Salvar do formulário para criar usuário
 if (isset($_POST['create_usuario'])) {
 
-    // Coleta os dados do formulário
+    // Coletando os dados do formulário
     $nome = trim($_POST['nome']);
     $email = trim($_POST['email']);
     $data_nascimento = trim($_POST['data_nascimento']);

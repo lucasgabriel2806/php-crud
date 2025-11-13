@@ -12,8 +12,10 @@
 </head>
 <body>
 
+    <!-- Navbar -->
     <?php include 'navbar.php'; ?>
 
+    <!-- Main -->
     <main class="px-[50px]">
 
         <div class="flex justify-between items-center py-[7px] px-[10px] bg-gray-100 border-1 border-gray-400 rounded-t-[7px]">
@@ -26,6 +28,7 @@
 
         <div class="border-1 border-gray-400 border-t-0 py-[20px] px-[15px]">
 
+            <!-- Formulário para cadastrar usuário -->
             <form action="acoes.php" method="post">
 
                 <div class="flex flex-col mb-[20px]">
@@ -58,7 +61,7 @@
 
                 <div class="flex mb-[20px]">
 
-                    <button class="bg-[#296FFF] text-[#fff] py-[7px] px-[10px] rounded-[5px]" type="submit" name="create_usuario">Salvar</button>
+                    <button class="bg-[#296FFF] text-[#fff] py-[7px] px-[10px] rounded-[5px] cursor-pointer" type="submit" name="create_usuario">Salvar</button>
 
                 </div>
 
