@@ -104,4 +104,43 @@ if (isset($_POST['update_usuario'])) {
 
 }
 
+// Se clicou no botão de Excluir da lista de usuários para excluir um usuário
+if (isset($_POST["delete_usuario"])) {
+
+    try {
+
+        $id_usuario = $_POST["delete_usuario"];
+
+        $sql = "DELETE FROM usuarios 
+                WHERE id_usuario = :id_usuario";
+
+        // Prepara a query
+        $stmt = $conn->prepare($sql);
+
+        // Faz o bind dos valores
+        $stmt->bindParam(':id_usuario', $id_usuario);
+
+        // Executa o comando
+        $stmt->execute();
+
+        // Verifica se algum registro foi inserido
+        if ($stmt->rowCount() > 0) {
+            $_SESSION['mensagem'] = 'Usuário deletado com sucesso!';
+            header('Location: index.php');
+            exit;
+        } else {
+            $_SESSION['mensagem'] = 'Usuário não foi deletado.';
+            header('Location: index.php');
+            exit;
+        } 
+
+    } catch (Exception $e) {
+
+        $_SESSION['mensagem'] = 'Erro ao deletar usuário: ' . $e->getMessage();
+        header('Location: index.php');
+        exit;
+    }
+
+}
+
 ?>
