@@ -2,20 +2,24 @@
 <p>Esse é um projeto que desenvolvi em linguagem php para fazer o crud de usuários.</p>
 
 <p style="font-size: 24px;">Cadastrando usuário ✅</p>
-<video src="./assets/video/usuario_create.mp4" width="700" height="360" autoplay muted loop>
-</video>
+<!-- <video src="./assets/video/usuario_create.mp4" width="700" height="360" autoplay muted loop>
+</video> -->
+![Cadastro de Usuário](./assets/video/usuario_create.gif)
 
 <p style="font-size: 24px;">Visualizando usuário 👀</p>
-<video src="./assets/video/usuario_view.mp4" width="700" height="360" autoplay muted loop>
-</video>
+<!-- <video src="./assets/video/usuario_view.mp4" width="700" height="360" autoplay muted loop>
+</video> -->
+![Visualização de Usuário](./assets/video/usuario_view.gif)
 
 <p style="font-size: 24px;">Editando usuário 📝</p>
-<video src="./assets/video/usuario_edit.mp4" width="700" height="360" autoplay muted loop>
-</video>
+<!-- <video src="./assets/video/usuario_edit.mp4" width="700" height="360" autoplay muted loop>
+</video> -->
+![Edição de Usuário](./assets/video/usuario_edit.gif)
 
 <p style="font-size: 24px;">Deletando usuário ❌</p>
-<video src="./assets/video/usuario_delete.mp4" width="700" height="360" autoplay muted loop>
-</video>
+<!-- <video src="./assets/video/usuario_delete.mp4" width="700" height="360" autoplay muted loop>
+</video> -->
+![Deleção de Usuário](./assets/video/usuario_delete.gif)
 
 <p style="font-size: 24px;">Modelagem do Banco de Dados 📊</p>
 <img src="./assets/img/modelagem.png">
